@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}
+
+h2, h3 {
+  line-height: 1em;
+  text-align: center;
+}
+
+.cell:hover {
+  stroke: black;
+}
+
+#legendContainer {
+  padding-left: 40px;
+}
+
+#container {
+  position: relative;
+}
+
+#tooltip {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  color: white;
+  font-size: 0.8em;
+  line-height: 0.9em;
+  margin: 0;
+  min-width: 50px;
+  opacity: 0;
+  padding: 0 10px;
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+}
